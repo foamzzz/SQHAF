@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter generated state
+.ipynb_checkpoints/
+
+# Local datasets and logs
+mne_data/
+logs/
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Large/generated temporary outputs
+results/revision/*/predictions.csv
+results/revision/*/source_score_diagnostics.csv
+results/revision/*/stage2_covariance_diagnostics.csv
+results/revision/*/summary.csv
+results/revision/*/metadata.json
+results/revision/*/config.json
+
+# Generated manuscript outputs
+*.pdf
+*.xdv
+
+# Notebook-generated checkpoints
+.ipynb_checkpoints/
